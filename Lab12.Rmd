@@ -151,7 +151,7 @@ mageck count -l library.csv -n OUT_SEPARATE --sample-label Day0_Rep1,Day0_Rep2,D
 + Run the `mageck mle` subcommand.
 
 ```
-mageck mle -k GSC_0131.count_normalized.txt -d design_matrix.txt \
+mageck mle -k OUT.count_normalized.txt -d design_matrix.txt \
 -n OUT_MLE --threads 4
 ```
 
